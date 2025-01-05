@@ -15,15 +15,18 @@ int main() {
  avg = (sub1 + sub2 + sub3) / 3.0;
 
  if(avg >= 75) {
-  cout << "Distiction ";
+  cout << "Distiction " << endl;
  }
  else if(avg >= 60) {
-  cout << "Class I ";
+  cout << "Class I " << endl;
  }
- else if(avg >= 59 && avg <= 50) {
-  cout << "Class II ";
+ else if(avg >= 50 && avg <= 59) {
+  cout << "Class II " << endl;
  }
- else if(avg >= 60) {
-  cout << "Class I ";
+ else if(avg >= 35 && avg <= 49) {
+  cout << "Pass Class" << endl;
+ }
+ else {
+  cout << "Fail" << endl;
  }
 }
